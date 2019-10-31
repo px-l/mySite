@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 app.get('/',function(req,res){
-    res.send('热烈欢迎张同学来访')
+    res.send('欢迎来访')
 })
 var server = app.listen(80,function(){
     var host = server.address().address
